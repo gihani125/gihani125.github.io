@@ -489,10 +489,11 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+   
 }
 
 .skills .progress .skill {
@@ -1024,8 +1025,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 100%;
-  background: #fff;
+    width: 100%;
+    background: #f7f8f9;
 }
 
 .contact .info i {

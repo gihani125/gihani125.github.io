@@ -183,9 +183,9 @@
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
+          el.classList.remove('filter-swot');
         });
-        this.classList.add('filter-active');
+        this.classList.add('filter-swot');
 
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
