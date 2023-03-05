@@ -587,17 +587,17 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 25px auto;
-  list-style: none;
-  text-align: center;
-  background: #fff;
-  border-radius: 50px;
-  padding: 2px 15px;
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
 }
 
 .portfolio #portfolio-flters li {
@@ -623,11 +623,10 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -650,7 +649,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: center;
+  /*text-align: center;*/
   z-index: 3;
   transition: all ease-in-out 0.3s;
   display: flex;
@@ -809,11 +808,11 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    text-align: center;
+    /*padding: 70px 20px 80px 20px;*/
+    transition: all ease-in-out 0.3s;
+    background: #f5f5ef;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
 .services .icon-box .icon {

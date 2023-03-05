@@ -4,7 +4,11 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\img",
-    "\\assets\\js"
+    "\\assets\\scss",
+    "\\assets\\vendor",
+    "\\assets\\vendor\\aos",
+    "\\assets\\vendor\\bootstrap",
+    "\\assets\\vendor\\boxicons"
   ],
   "SelectedNode": "\\assets\\img",
   "PreviewInSolutionExplorer": false
