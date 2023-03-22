@@ -14,8 +14,8 @@ body {
 }
 
 a {
-  color: #0563bb;
-  text-decoration: none;
+    color: #753bbd;
+    text-decoration: none;
 }
 
 a:hover {
@@ -36,17 +36,17 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #0563bb;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #753bbd;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
 }
 
 .back-to-top i {
@@ -55,10 +55,10 @@ h6 {
   line-height: 0;
 }
 
-.back-to-top:hover {
-  background: #0678e3;
-  color: #fff;
-}
+    .back-to-top:hover {
+        background: #2b045c;
+        color: #fff;
+    }
 
 .back-to-top.active {
   visibility: visible;
@@ -219,9 +219,9 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
-  color: #fff;
-  background: #0563bb;
+.nav-menu li:hover > a {
+    color: #fff;
+    background: #753bbd;
 }
 
 .nav-menu a:hover span,
@@ -320,10 +320,10 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
-  color: #0563bb;
-  letter-spacing: 1px;
-}
+    #hero p span {
+        color: #753bbd;
+        letter-spacing: 1px;
+    }
 
 #hero .social-links {
   margin-top: 30px;
@@ -338,9 +338,9 @@ h6 {
   transition: 0.3s;
 }
 
-#hero .social-links a:hover {
-  color: #0563bb;
-}
+    #hero .social-links a:hover {
+        color: #753bbd;
+    }
 
 @media (max-width: 992px) {
   #hero {
@@ -393,16 +393,16 @@ section {
   left: calc(50% - 60px);
 }
 
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #0563bb;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
+    .section-title h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #753bbd;
+        bottom: 0;
+        left: calc(50% - 20px);
+    }
 
 .section-title p {
   margin-bottom: 0;
@@ -516,10 +516,10 @@ section {
 }
 
 .skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #753bbd;
 }
 
 /*--------------------------------------------------------------
@@ -613,10 +613,10 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
-}
+    .portfolio #portfolio-flters li:hover,
+    .portfolio #portfolio-flters li.filter-active {
+        color: #753bbd;
+    }
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -866,7 +866,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+    color: #753bbd;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -874,11 +874,11 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+    fill: #753bbd;
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+    color: #753bbd;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -886,11 +886,11 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+    fill: #753bbd;
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+    color: #753bbd;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -898,11 +898,11 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+    fill: #753bbd;
 }
 
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+    color: #753bbd;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -910,11 +910,11 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+    fill: #753bbd;
 }
 
 .services .iconbox-red i {
-  color: #ff5828;
+    color: #753bbd;
 }
 
 .services .iconbox-red:hover .icon i {
@@ -922,11 +922,11 @@ section {
 }
 
 .services .iconbox-red:hover .icon path {
-  fill: #ff5828;
+    fill: #753bbd;
 }
 
 .services .iconbox-teal i {
-  color: #11dbcf;
+    color: #753bbd;
 }
 
 .services .iconbox-teal:hover .icon i {
@@ -934,7 +934,7 @@ section {
 }
 
 .services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+    fill: #753bbd;
 }
 
 /*--------------------------------------------------------------
@@ -1199,26 +1199,26 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #0563bb;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
+    #footer .social-links a {
+        font-size: 18px;
+        display: inline-block;
+        background: #753bbd;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+    }
 
-#footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
-  text-decoration: none;
-}
+        #footer .social-links a:hover {
+            background: #2b045c;
+            color: #fff;
+            text-decoration: none;
+        }
 
 #footer .copyright {
   margin: 0 0 5px 0;
