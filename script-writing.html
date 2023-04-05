@@ -39,8 +39,12 @@
             border-bottom: 1px solid #ddd;
             padding-top: 20px;
             padding-bottom: 20px;
-            padding-left: 20px;
+            padding-left: 0px;
             padding-right: 20px;
+        }
+
+        img {
+            border: 1px solid #555;
         }
     </style>
 
@@ -59,18 +63,18 @@
               <!--<h3>Principles in test automation</h3>-->
               <table style="width:100%">
                   <tr>
-                      <td style="width:50%"><img src="assets/img/selenium-plugin.png" class="testimonial-img" alt="" width="600"></td>
-                      <td><p>Installation of the Selenium UI Testing plugin</p>
+                      <td style="width:50%"><img src="assets/img/Install-Selenium-WebDriver.png" class="testimonial-img" alt="" width="610"></td>
+                      <td>
+                          <p><b>Step 1: Download Selenium WebDriver</b></p>
                           <ol>
-                              <li><span>In the Settings dialog (Ctrl+Alt+S), select Plugins</span></li>
-                              <li><span>Switch to the Marketplace tab, type Selenium UI Testing, and click Install.</span></li>
-                              <li><span>Apply the changes and close the dialog. Restart the IDE if prompted.</span></li>
+                              <li><span>Selenium WebDriver is a tool used to automate web browsers. </span></li>
+                              <li><span>Download Selenium WebDriver from the official <a href="https://www.selenium.dev/downloads/" target=”_blank”> Selenium website </a> (www.selenium.dev, n.d.) </span></li>
                           </ol>
                       </td>
                   </tr>
                   <tr>
                       <td>
-                          <p>Creating a new Selenium project</p>
+                          <p><b>Step  2: Creating a new Selenium project</b></p>
                           <ol>
                               <li><span>From the main menu, select File | New | Project.</span></li>
                               <li><span>From the list on the left, select Selenium.</span></li>
@@ -81,18 +85,65 @@
                               <li><span>From the JDK list, select the JDK that you want to use in your project.</span></li>
                               <li><span>Optionally, enable the Add sample code option and click Next.</span></li>
                           </ol>
-
                       </td>
-                          
                       <td>
                           <img src="assets/img/selenium-new-project.png" class="testimonial-img" alt="" width="500">
                       </td>
                   </tr>
                   <tr>
-                      <td><p>Next step...</p></td>
-                      <td></td>
+                      <td style="width:50%"><img src="assets/img/chromeExe.png" class="testimonial-img" alt="" width="610"></td>
+                      <td>
+                          <p><b>Step 3: Add Selenium WebDriver</b></p>
+                          <ol>
+                              <li><span>Add the Selenium WebDriver (chromedriver.exe)</span></li>
+                          </ol>
+                      </td>
                   </tr>
-                  
+                  <tr>
+                      <td>
+                          <p><b>Step 4: Add Selenium WebDriver dependency</b></p>
+                          <ol>
+                              <li><span>Add the Selenium WebDriver dependency to the pom.xml by adding the code in the image to project's pom.xml file</span></li>
+                              <li><span>Link to download <a href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.8.1" target=”_blank”>Selenium WebDriver dependency</a> (mvnrepository.com, n.d.).</span></li>
+                          </ol>
+                      </td>
+                      <td style="width:50%"><img src="assets/img/WebDriver-dependency.png" class="testimonial-img" alt="" width="510"></td>
+                  </tr>
+                  <tr>
+                      <td style="width:50%"><img src="assets/img/testNG-dep.png" class="testimonial-img" alt="" width="510"></td>
+                      <td>
+                          <p><b>Step 5: Add testNG dependency</b></p>
+                          <ol>
+                              <li><span>Add the testNG dependency to the pom.xml to support test configured by annotations, data-driven testing, parametric tests, etc.</span></li>
+                              <li><span>Get the testNG dependency from <a href="https://mvnrepository.com/artifact/org.testng/testng" target=”_blank”>this link.</a> (mvnrepository.com, n.d.).</span></li>
+                          </ol>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <p><b>Step  6: Write the script</b></p>
+                          <ol>
+                              <li><span>Set up the ChromeDriver to open the Chrome browser - System.setProperty("webdriver.chrome.driver", "path/to/chromedriver.exe");</span></li>
+                              <li><span>Instantiate the ChromeDriver - WebDriver driver = new ChromeDriver();</span></li>
+                              <li><span>Instantiate the ChromeDriver - driver.navigate().to("https://www.amazon.com/");</span></li>
+                              <li><span>Continue the test spript for the decided test scope</span></li>
+                          </ol>
+                      </td>
+                      <td>
+                          <img src="assets/img/script.png" class="testimonial-img" alt="" width="550">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td style="width:50%"><img src="assets/img/result.png" class="testimonial-img" alt="" width="610"></td>
+                      <td>
+                          <p><b>Step 7: Get the result</b></p>
+                          <ol>
+                              <li><span>After completing the test automation code, run the script and get the result</span></li>
+                              <li><span>In this image, it is displaying the test result of "Test result navigation screen"</span></li>
+                          </ol>
+                      </td>
+                  </tr>
+
               </table>
           </div>
           <!--test-->
